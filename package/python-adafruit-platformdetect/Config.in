@@ -1,0 +1,3 @@
+config BR2_PACKAGE_PYTHON_ADAFRUIT_PLATFORMDETECT
+    bool "python-adafruit-platformdetect"
+    depends on BR2_PACKAGE_PYTHON3

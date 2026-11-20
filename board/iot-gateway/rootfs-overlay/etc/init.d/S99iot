@@ -1,0 +1,21 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        echo "Starting IoT Gateway DHT11 application"
+        mkdir -p /var/log
+        python3 /usr/bin/dht_test.py >> /var/log/dht11.log 2>&1 &
+        echo $! > /var/run/dht11.pid
+        ;;
+    stop)
+        if [ -f /var/run/dht11.pid ]; then
+            kill "$(cat /var/run/dht11.pid)"
+            rm -f /var/run/dht11.pid
+        fi
+        ;;
+    *)
+        exit 1
+        ;;
+esac
+
+exit 0

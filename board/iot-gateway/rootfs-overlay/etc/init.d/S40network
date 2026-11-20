@@ -1,0 +1,14 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        echo "Starting Ethernet DHCP"
+        ip link set eth0 up
+        dhcpcd eth0
+        ;;
+    stop)
+        killall dhcpcd 2>/dev/null
+        ;;
+esac
+
+exit 0

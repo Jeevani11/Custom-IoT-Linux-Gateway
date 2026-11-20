@@ -1,0 +1,3 @@
+config BR2_PACKAGE_PYTHON_ADAFRUIT_PUREIO
+    bool "python-adafruit-pureio"
+    depends on BR2_PACKAGE_PYTHON3

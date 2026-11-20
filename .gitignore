@@ -1,0 +1,28 @@
+# Buildroot generated files
+/buildroot/output/
+/buildroot/dl/
+/buildroot/host/
+/buildroot/staging/
+/buildroot/build/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Generated images
+*.img
+*.img.gz
+*.tar
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor files
+.vscode/
+.idea/
+
+# Buildroot source and generated files
+/buildroot/

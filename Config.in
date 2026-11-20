@@ -1,0 +1,8 @@
+menu "IoT Gateway packages"
+
+source "$BR2_EXTERNAL_IOT_GATEWAY_PATH/package/python-adafruit-platformdetect/Config.in"
+source "$BR2_EXTERNAL_IOT_GATEWAY_PATH/package/python-adafruit-pureio/Config.in"
+source "$BR2_EXTERNAL_IOT_GATEWAY_PATH/package/python-adafruit-blinka/Config.in"
+source "$BR2_EXTERNAL_IOT_GATEWAY_PATH/package/python-adafruit-dht/Config.in"
+
+endmenu

@@ -1,0 +1,1 @@
+source "package/python-adafruit-dht/Config.in"
