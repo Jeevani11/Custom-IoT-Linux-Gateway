@@ -48,23 +48,16 @@ The generated SD card image is approximately 153 MB.
 
 The complete Buildroot source and generated build files are excluded from this repository. The required version is Buildroot 2026.11-rc1.
 
-## Current Implementation Status
+## Team Members
 
-- [x] Custom Linux image built
-- [x] Raspberry Pi successfully booted
-- [x] DHT11 sensor readings tested
-- [x] Automatic application startup configured
-- [x] Mosquitto broker installed and started
-- [ ] MQTT publisher-subscriber delivery verification
-- [ ] Integration of sensor readings with MQTT
-- [ ] MQTT authentication and network hardening
-- [ ] Read-only root filesystem with writable overlay
-- [ ] Signed OTA update verification
-- [ ] Performance benchmarking
+- CS24B1016 - Namitha Sai Kollo
+- CS24B1023 - Yalamanchili Jeevani
+- CS24B1041 - Gogineni Gouthami
+- CS24B1064 - Ravipati Vishnu Tejaswini
 
-## Team
+## Project Demonstration
 
-Four-member academic project.
+[Watch Project Demo](https://drive.google.com/file/d/1QVAiqFDGbbgrB0rXkdG61ie_OvgceRx7/view?usp=sharing)
 
 ## License
 
