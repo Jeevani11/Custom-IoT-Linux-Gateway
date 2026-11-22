@@ -50,7 +50,7 @@ The complete Buildroot source and generated build files are excluded from this r
 
 ## Team Members
 
-- CS24B1016 - Namitha Sai Kollo
+- CS24B1016 - Namitha Sai Kolli
 - CS24B1023 - Yalamanchili Jeevani
 - CS24B1041 - Gogineni Gouthami
 - CS24B1064 - Ravipati Vishnu Tejaswini
